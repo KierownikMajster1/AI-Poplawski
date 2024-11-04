@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cb3030;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4f0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+}
+
+#poleSzukaj {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#poleSzukaj:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#listaZadan {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaZadan li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #e9f5ff; 
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#listaZadan li:nth-child(odd) {
+    background-color: #f1f8ff;
+}
+
+#listaZadan li span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#listaZadan li button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #dc3545; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#listaZadan li button:hover {
+    background-color: #c82333; 
+}
+
+.formularz {
+    margin-top: 20px;
+}
+
+.formularz input, .formularz button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formularz input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.formularz button {
+    background-color: #28a745; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.formularz button:hover {
+    background-color: #218838; 
+}
+
+mark {
+    background-color: yellow;
+}
+
+.data-zadania {
+    margin-left: 10px;
+    color: #6c757d; 
+    cursor: pointer;
+}
+
+.data-zadania:hover {
+    text-decoration: underline;
+}
