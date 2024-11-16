@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa i Puzzle</title>
+    <link rel="stylesheet" href="styl.css">
+    <!-- Linki do bibliotek Leaflet i Leaflet-image -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+<div class="container">
+    <!-- Mapa interaktywna -->
+    <div class="map-container">
+        <h2>Mapa</h2>
+        <div id="map"></div>
+        <button id="my-location">Moja lokalizacja</button>
+        <button id="download-map">Pobierz mapę</button>
+    </div>
+
+    <!-- Mapa rastrowa -->
+    <div class="raster-map-container">
+        <h2>Mapa Rastrowa</h2>
+        <div id="raster-map"></div>
+    </div>
+
+    <!-- Rozsypane puzzle -->
+    <div class="puzzle-pieces-container">
+        <h2>Rozsypane Puzzle</h2>
+        <div id="puzzle-pieces"></div>
+    </div>
+
+    <!-- Stół do układania -->
+    <div class="game-container">
+        <h2>Stół do Układania</h2>
+        <div id="game-board"></div>
+        <div id="notification"></div>
+    </div>
+</div>
+
+<!-- Skrypty -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-image/leaflet-image.js"></script>
+<script src="skrypt.js"></script>
+</body>
+</html>
