@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pogoda</title>
+        <link rel="stylesheet" href="styl.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+<body>
+    <div class="container">
+        <h1>Pogoda</h1>
+        <input type="text" id="cityInput" placeholder="Wpisz nazwę miasta">
+        <button id="weatherButton">Pogoda</button>
+        <div id="currentWeather" class="weather-section">
+            <h2>Bieżąca Pogoda:</h2>
+            <p id="currentWeatherData"></p>
+        </div>
+        <div id="forecastWeather" class="weather-section">
+            <h2>Prognoza 5-dniowa:</h2>
+            <ul id="forecastWeatherData"></ul>
+        </div>
+    </div>
+    <script src="skrypt.js"></script>
+</body>
+</html>
